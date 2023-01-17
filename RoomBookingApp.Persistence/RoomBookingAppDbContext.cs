@@ -23,11 +23,11 @@ namespace RoomBookingApp.Persistence
         {
             base.OnModelCreating(modelBuilder);
 
-            /*modelBuilder.Entity<Room>().HasData(
+            modelBuilder.Entity<Room>().HasData(
                 new Room { Id  = 1, Name = "Conference Room A" },
-                new Room { Id  = 1, Name = "Conference Room B" },
-                new Room { Id  = 1, Name = "Conference Room C" }
-            );*/
+                new Room { Id  = 2, Name = "Conference Room B" },
+                new Room { Id  = 3, Name = "Conference Room C" }
+            );
         }
 
     }
